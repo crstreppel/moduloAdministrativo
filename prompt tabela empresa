@@ -1,0 +1,59 @@
+Vamos iniciar um novo desafio, um sistema administrativo robusto, seguro, porém simples e intuitivo para o petshop, para gerenciar clientes, pet, movimentos diarios de banhos, de creche e hospedagens, pois é isso que temos funcionando hoje. 
+deverá ser construido em html, css, javascript no frontend e no backend nodejs, javascript, express, sequelize, postgre, ,jwt, bcrypt, axios e cors.
+esse sistema deverá ser construido em módulos.
+teremos os seguintes módulos:
+empresa (para as franquias) - essa tabela será ligada a todas outras tabelas)
+status
+usuarios
+logs de sistema
+permissões de usuarios
+notificações (de data de vacinas, vencimento de tabelas de preço, titulos a vencer, titulos a pagar, dentre outros)
+especie
+raça
+cor dos pelos
+pet
+clientes
+serviços
+agendamentos (banhos, consultas, hospedagem)
+produtos
+estoque
+vacinas
+condição de pagamento
+meio de pagamento
+tabela de preços
+fornecedores
+produtos
+movimentos
+depois que o sistema administrativo, que é o alicerce de todo o projeto estiver pronto, vamos evoluir para as outras partes (veterinaria, ecommerce)
+
+por enquanto só me passe a sua opinião, não precisa se preocupar em gerar cógidos, nem nada.
+
+*************************************************************************************************
+vamos começar com o módulo empresa.
+lembrando que o sistema está sendo construido em html, css, javascript no frontend e no backend nodejs, javascript, express, sequelize, postgre, ,jwt, bcrypt, axios e cors.
+primeiro vamos definir os campos da tabela empresa. Pensei em incluir os seguintes campos. Voce sugere mais campos ?
+id 
+razão social
+nome fantasia
+documento.tipo ("CNPJ", "VAT", "EIN")
+documento.numero (número)
+Inscrição Estadual
+Inscrição Municipal
+Registro no crmv
+endereço Rua/Avenida
+endereço Numero
+endereço Complemento
+endereço Bairro
+endereço Cidade
+endereço Estado
+endereço Pais
+endereço código postal
+telefone
+email
+site
+logo_url
+timezone
+idioma_padrao
+moeda_padrao
+status
+
