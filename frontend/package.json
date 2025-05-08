@@ -1,13 +1,21 @@
 {
-"name": "petshop-frontend",
+  "name": "frontend",
   "version": "1.0.0",
-  "description": "Interface do sistema administrativo",
+  "main": "index.js",
   "scripts": {
-    "start": "vite",
-    "build": "vite build"git
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
   "dependencies": {
-    "axios": "^1.9.0",
+    "axios": "^1.9.0"
+  },
+  "devDependencies": {
     "vite": "^6.3.5"
   }
 }

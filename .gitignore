@@ -1,48 +1,41 @@
-# node_modules: dependências instaladas via npm/yarn/pnpm
-node_modules/
-
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-
-# Ambiente
-.env
-.env.*.local
-
-# Diretórios temporários
-tmp/
-temp/
-.cache/
-dist/
-build/
-
-# Diretórios de testes ou relatórios
-coverage/
-nyc_output/
-
-# IDEs e editores
-.vscode/
-.idea/
-*.sublime-workspace
-*.sublime-project
-
-# SO - arquivos específicos de sistema
+# Arquivos do sistema
 .DS_Store
 Thumbs.db
 
-# Arquivos de lock de dependências — use só o que seu projeto usa
+# Dependências
+node_modules/
 package-lock.json
 yarn.lock
-pnpm-lock.yaml
 
-# Outros
-*.tgz
-*.gz
-*.zip
+# Ambiente
+.env
+.env.local
+.env.development
+.env.production
 
-# Optional: Ignorar arquivos de produção do front-end (em apps fullstack)
-public/
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+
+# Banco de dados (caso tenha arquivos SQLite)
+*.sqlite
+*.sqlite3
+
+# Vite cache
+.cache/
+
+# Builds
+dist/
+build/
+
+# Backend específico
+backend/config/config.json
+backend/storage/
+
+# Frontend específico
+frontend/.vite/
+frontend/dist/
